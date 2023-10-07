@@ -127,15 +127,35 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
      .container{
         width: 100%;
      }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
      .row{
         display: flex;
         flex-direction: column;
-        background-color:;
+        align-items: center;
+        flex-wrap: wrap;
      }
-}
+     .container{
+        padding: 0 10px;
+     }
+    .steps {
+        margin: 0;
+        padding: 3rem 0;
+    }
+    .col{
+        width: 100%;
+        padding: 0;
+    }
+    .why-us {
+         background-color: rgb(32, 32, 32);
+         width: 100%;
+         margin: 0;
+    }
+    .col-left , .col-right{
+        width: 100%;
+    }
+} 
